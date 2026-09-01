@@ -1,0 +1,48 @@
+# Sanal ortamlar (Virtual Environments)
+venv/
+env/
+ENV/
+.venv/
+
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+
+.env
+instance/
+
+*.db
+*.sqlite3
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log ve geçici dosyalar
+*.log
+logs/
+.webassets-cache
+
+# macOS sistem dosyaları
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Test ve Coverage araçları (pytest vb. kullanırsan)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Paket ve derleme kalıntıları
+build/
+dist/
+*.egg-info/
+
+# AWS ve gizli yapılandırma dizinleri
+.aws/
