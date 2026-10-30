@@ -51,7 +51,7 @@ jobs:
             docker-compose.yml
           sparse-checkout-cone-mode: false
 
-      - name: Create .env file          # ← YENİ ADIM
+      - name: Create .env file         
         run: |
           cat > .env << EOF
           DB_USER=${{ secrets.DB_USER }}
